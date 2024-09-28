@@ -1,0 +1,67 @@
+.mainContainer {
+    width: 50%;
+    margin: auto;
+    height: fit-content;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(45deg, red, orange, yellow);
+  }
+  
+  .row1, .row2, .row3{
+      display: flex;
+      /* gap: 60%; */
+      justify-content: space-between;
+      
+  }
+  
+  .curentWeatherHeading span, .curentWeatherTime span{
+      font-weight: bolder;
+      font-size: 32px;
+  }
+  
+  .curentWeatherTime{
+      right: auto;
+  }
+  
+  .divider{
+      display: block;
+      height: 1px;
+      border-top: 1px solid 1px solid #e7e7e7;
+      line-height: 19px;
+      margin-bottom: 14px;
+      margin-top: 14px;
+  }
+  
+  .imageContainer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+  }
+  
+  .imageContainer span{
+      font-size: 60px;
+  }
+  
+  .dataContainer{
+      width: 50%;
+  }
+  
+  .dataContainerContent{
+      display: flex;
+      justify-content: space-between;
+  
+  }
+  
+  .contentValue{
+      font-weight: bold;
+  }
+  
+  .dailyTemp span{
+      display: block;
+      font-size: 30px;
+      justify-content: center;
+      align-items: center;
+  }
